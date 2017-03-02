@@ -1,0 +1,83 @@
+<!--Juan Daccarett-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+    <!-- Required MetaTags -->
+    <meta charset="utf-8">
+    <!-- Edge and internet explorer -->
+    <meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
+    <!-- mobile compatible -->
+    <meta name=viewport content="width=device-width, initial-scale=1">
+
+    <title>Api connection to openWeather</title>
+  </head>
+  <body>
+      
+   <section id="contacthero">
+   
+    <div class="container3">
+        <img src="images/bkgContact.png" class="containercontact">
+        
+    <div class="formWrapper">
+
+    
+      <h2>Weather App</h2>
+
+      <form name="test"> 
+        
+        <input class="inputzipcode" type="text" name="zipcode" id="zipcode" placeholder=" ENTER ZIPCODE" method="POST">
+        
+        <input class="inputcity" type="text" name="city" id="city" placeholder="  ENTER CITY">
+        
+        
+        <input class="inputsubmit" type="submit" id="urlSubmit">
+       
+        </form>
+         
+    </div>
+    
+     <div id="results">
+      <h3>Weather Results</h3>
+      <ul>
+          
+        <li class="temperature">Temp: <span id="temperature">0</span>&deg;F</li>
+        <li class="location">Location: <span id="location">Unknown</span></li>
+        <li class="humidity">Humidity: <span id="humidity">0</span>%</li>
+
+      </ul>
+    </div>
+    </div>
+</section>
+
+
+<section id="contacthero">
+    <div class="container3"> <img src="images/bkgContact.png" class="containercontact">
+        <div class="formWrapper">
+            <div class="contimg"> </div>
+            <!--CONTACT FORM-->
+            <form>
+                <!--user email-->
+                <input class="email" type="text" name="subject" id="userEmail" placeholder="  EMAIL">
+                <!--submit button-->
+                <input class="submit" type="submit" id="submitUserInfo"> </form>
+        </div>   
+    </div>
+    
+    <div id="resultstwo">
+      <h3>Input Results</h3>
+      <ul>
+          
+        <li class="userEmailData">Email: <span id="userEmailData">Unknown</span></li>
+
+      </ul>
+    </div>
+</section>
+
+
+  <!-- Javascript link -->
+  <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
